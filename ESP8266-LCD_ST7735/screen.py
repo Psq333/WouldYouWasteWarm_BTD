@@ -26,7 +26,7 @@ tft = TFT_GREEN(128, 160, spi, dc, cs, rst, rotate=90)
 # init TFT
 tft.init()
 
-  def inizializzazione():
+def inizializzazione():
   tft.clear(tft.rgbcolor(0, 0, 0)) #b, g, r
   tft.text(25,30,"Would you", font.terminalfont, tft.rgbcolor(255, 255, 105), 2)
   time.sleep(0.2)
